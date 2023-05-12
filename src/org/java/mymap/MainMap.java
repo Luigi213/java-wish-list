@@ -2,6 +2,7 @@ package org.java.mymap;
 
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 
 public class MainMap {
@@ -38,12 +39,13 @@ public class MainMap {
 			}
 		}
 		System.out.println(mapArr);
+		
 	}
 	
 	public static String removeAllNonAlphaNumeric(String s) {
         if (s == null) {
             return null;
         }
-        return s.replaceAll("[^A-Za-z0-9]", " ");
+        return s.replaceAll("[^A-Za-z0-9] ", "");
     }
 }
