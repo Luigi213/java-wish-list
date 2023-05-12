@@ -1,6 +1,7 @@
 package org.java;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -8,7 +9,7 @@ public class Main {
 		
 		Scanner in = new Scanner(System.in);
 		
-		ArrayList<String> wishList = new ArrayList<>();
+		List<String> wishList = new ArrayList<>();
 		
 		while(true) {
 			System.out.println("Cosa desideri");
